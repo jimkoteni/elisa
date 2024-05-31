@@ -1,0 +1,19 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/ELISA/*
+!/ELISA/task/
+/ELISA/task/*
+!/ELISA/task/app.py
+!/ELISA/task/elisa_data.csv
+!/ELISA/task/standard_values.csv
+!/ELISA/task/elisa_result.csv
